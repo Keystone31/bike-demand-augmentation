@@ -6,7 +6,7 @@ Method reference: Hwang & Whang, "RegMix: Data Mixing Augmentation for Regressio
 ## Contents
 - `bike_regmix_experiments.ipynb`: full pipeline (EDA, preprocessing, splits, Vanilla / Mixup / Global kNN / RegMix, statistics, figures, tables).
 - `build_paper.py`: builds the IEEE two-column PDF; inserts tables and figures automatically from the notebook outputs.
-- `data/`: `hour.csv`, `day.csv` from https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset (CC BY 4.0; Fanaee-T, 2013, doi:10.24432/C5W894).
+- `hour.csv`, `day.csv`: dataset files from https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset (CC BY 4.0; Fanaee-T, 2013, doi:10.24432/C5W894).
 - `requirements.txt`
 
 ## Run
