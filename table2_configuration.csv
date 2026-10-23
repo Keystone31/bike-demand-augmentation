@@ -1,0 +1,36 @@
+Setting,Value
+preset,STANDARD
+data_file,hour.csv
+protocols,"['paper', 'chrono']"
+fracs,"[0.1, 0.25, 0.5, 1.0]"
+n_seeds,5
+regmix_iters,40
+search_steps,1500
+max_steps,20000
+eval_every,100
+patience,30
+hidden,"[512, 256]"
+batch,64
+lr_grid,"[0.0001, 0.0003, 0.001]"
+mixup_alphas,"[0.2, 1.0, 10.0, 100.0]"
+regmix_alpha,100.0
+knn_options,"[0, 1, 4, 16, 64, 256]"
+n_policies_T,20
+ctrl_hidden,"[100, 100, 100, 100]"
+ctrl_lr,0.002
+ppo_epochs,4
+ppo_clip,0.2
+entropy_w,0.01
+ema,0.95
+paper_n_train,300
+paper_n_val,200
+chrono_split,"[0.6, 0.2, 0.2]"
+chrono_regmix_max_n,11000
+python,3.13.15
+torch,2.11.0+cu130
+numpy,2.1.3
+pandas,2.2.3
+device,cuda
+gpu,Tesla T4
+data_sha256,e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f
+seeds,"[0, 1, 2, 3, 4]"

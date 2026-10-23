@@ -1,0 +1,12 @@
+Item,Value
+File,hour.csv
+Source,"UCI ML Repository, Bike Sharing Dataset (id 275)"
+Rows,17379
+Raw columns,17
+Collection period,2011-01-01 to 2012-12-31
+Target,cnt (total rentals)
+Target mean / std / max,189.5 / 181.4 / 977
+Model inputs (after encoding),21
+Dropped columns,"instant, dteday, casual, registered"
+Missing values,0
+Duplicate rows,0
